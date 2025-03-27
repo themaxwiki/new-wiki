@@ -1,8 +1,8 @@
 Benvenuti su The Max Wiki!
 
-Se il vostro obbiettivo è creare un sito semplice e funzionale, siete nel posto giusto!
+Se il vostro obbiettivo è creare un sito in modo semplice e veloce, siete nel posto giusto!
 
-The Max Wiki semplifica il processo di sviluppo delle wiki.
+The Max Wiki semplifica il processo di sviluppo dei siti web.
 
 Per iniziare, premete il pulsante crea!
 
