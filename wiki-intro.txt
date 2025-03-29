@@ -1,15 +1,36 @@
 Benvenuti su The Max Wiki!
-
 Se il vostro obbiettivo è creare un sito in modo semplice e veloce, siete nel posto giusto!
-
 The Max Wiki semplifica il processo di sviluppo dei siti web.
-
-Per iniziare, premete il pulsante crea!
-
+Per iniziare, inviate i vostri file al nostro indirizzo: themaxwiki@outlook.it
+Specificate nome e la divisione delle pagine della vostra wiki in questo modo:
+{wiki:page1="Testo pagina 1",true;page2="Testo pagina 2",false}
+Dopo il testo potete specificare se la pagina specifica deve essere visibile nell'indice: true=visibile, false=non visibile
 Attenzione: Le wiki, prima di essere pubblicate vengono controllate dal nostro team.
-
 Se create diversi file con una quantità significativa di testo, il nostro team ci metterà più tempo per analizzare la vostra wiki.
-
-Se inviate delle e-mail al nostro team per richiedere un sollecito del processo di verifica delle wiki la vostra richiesta verrà ignorata e la wiki verrà cancellata.
-
+Se desiderate cancellare la vostra wiki inviate un e-mail di cancellazione dall'indirizzo da cui avete creato la wiki.
 (C) Copyright 2025 The Max Wiki. Tutti i diritti sono riservati.
+
+Domande frequenti:
+D: Devo pagare per poter creare la mia wiki?
+R: No, The Max Wiki è completamente gratuito.
+
+D: Posso aggiungere dei link alla mia wiki?
+R: Si, è possibile aggiungere dei link esterni inserendo %a nel testo dove si vuole mostrare il pulsante per aprire il link e scrivendo l'URL del collegamento alla fine della pagina, come di seguito riportato:
+{wiki:page1="Testo pagina 1 %aTesto del pulsante%a",true,http:\\link.com\} (Sostituite link.com con l'URL del sito da aggiungere nel collegamento)
+
+D: Posso aggiungere più link nella stessa pagina?
+R: Si, è possibile usare %a, %b, ... per definire più link. La sintassi è la stessa di prima:
+{wiki:page1="Testo pagina 1 %aTesto del pulsante 1%a, %bTesto del pulsante 2%b",true,http:\\link.com\,http:\\link2.com} (Sostituite link.com con l'URL del sito da aggiungere nel collegamento)
+
+D: Quante pagine posso aggiungere al massimo in ogni wiki?
+R: Non ci sono limiti per l'aggiunta delle pagine, ma sconsigliamo più di 200 pagine
+
+D: Quanto testo posso aggiungere in ogni pagina?
+R: Non ci sono limiti per il testo di ogni pagina, ma sconsigliamo più di 500 parole per pagina
+
+D: Come posso dare un nome alla mia wiki?
+R: Per nominare una pagina della vostra wiki aggiungete l'attributo name dopo wiki: in questo modo:
+{wiki:name="nome della wiki";page1name="nome della pagina 1",page1="testo della pagina 1",...}
+
+D: Perché devo utilizzare la posta elettronica e non posso creare le mie wiki nel sito direttamente?
+R: Per garantire un elevato livello di sicurezza, controlliamo ogni singola parola delle wiki. Per questa motivazione è necessario inviare le wiki via e-mail prima della pubblicazione.
